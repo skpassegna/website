@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Samuel KPASSEGNA">
+
+    <!-- SEO Meta Tags -->
+    <title>Samuel KPASSEGNA — Technical Partner for Visionary Ventures</title>
+    <meta name="description"
+        content="Samuel KPASSEGNA: Experienced technical partner & CTO specializing in brainstorming, refining business logic, software architecture (PHP, Python, Laravel, AI), and DevOps for startups and innovative entrepreneurs.">
+    <meta name="keywords"
+        content="Samuel Kpassegna, web developer, technical partner, CTO, software architect, PHP, Python, Laravel, AI, DevOps, startup consultant, business logic refinement, brainstorming, fintech, gov-tech, All4Web, full-stack developer, technical leadership, software development, cloud infrastructure, API integration, project management">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Samuel KPASSEGNA - Technical Partner for Visionary Ventures">
+    <meta property="og:description"
+        content="Partnering with entrepreneurs from brainstorming to launch. Expertise in software architecture, development (PHP, Python, AI), and strategic technical leadership.">
+    <meta property="og:type" content="profile">
+    <meta property="profile:first_name" content="Samuel">
+    <meta property="profile:last_name" content="KPASSEGNA">
+    <meta property="og:url" content="https://skpassegna.me/">
+    <meta property="og:image"
+        content="https://skpassegna.me/assets/images/473190461_8903352673116614_9147900912655957461_n.jpg">
+    <meta property="og:image:alt" content="Samuel KPASSEGNA Portfolio - Technical Partner">
+    <meta property="og:site_name" content="Samuel KPASSEGNA Portfolio">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Samuel KPASSEGNA - Technical Partner for Visionary Ventures">
+    <meta name="twitter:description"
+        content="From brainstorming and refining business logic to robust architecture and implementation (PHP, Python, AI, DevOps). Let's build your vision.">
+    <meta name="twitter:image"
+        content="https://skpassegna.me/assets/images/473190461_8903352673116614_9147900912655957461_n.jpg">
+    <meta name="twitter:image:alt" content="Samuel KPASSEGNA Portfolio - Technical Partner">
+    <meta name="twitter:site" content="@skpassegna">
+    <meta name="twitter:creator" content="@skpassegna">
+
+    <!-- Favicon and App Icons -->
+    <link rel="icon" href="assets/images/logo.svg" sizes="32x32">
+    <link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/icons/icon-72x72.png">
+    <link rel="mask-icon" href="assets/images/logo.svg" color="#0073e6">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://skpassegna.me/">
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#0f172a">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            200: '#bfdbfe',
+                            300: '#93c5fd',
+                            400: '#60a5fa',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            800: '#1e40af',
+                            900: '#1e3a8a',
+                            950: '#172554'
+                        },
+                        dark: {
+                            50: '#f8fafc',
+                            100: '#f1f5f9',
+                            200: '#e2e8f0',
+                            300: '#cbd5e1',
+                            400: '#94a3b8',
+                            500: '#64748b',
+                            600: '#475569',
+                            700: '#334155',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                            950: '#020617'
+                        }
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                        'display': ['Playfair Display', 'serif'],
+                        'mono': ['JetBrains Mono', 'monospace']
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-in-out',
+                        'slide-up': 'slideUp 0.6s ease-out',
+                        'slide-in-left': 'slideInLeft 0.6s ease-out',
+                        'slide-in-right': 'slideInRight 0.6s ease-out',
+                        'float': 'float 6s ease-in-out infinite',
+                        'glow': 'glow 2s ease-in-out infinite alternate',
+                        'particle': 'particle 20s linear infinite',
+                        'morph': 'morph 8s ease-in-out infinite',
+                        'gradient': 'gradient 15s ease infinite'
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' }
+                        },
+                        slideUp: {
+                            '0%': { opacity: '0', transform: 'translateY(30px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' }
+                        },
+                        slideInLeft: {
+                            '0%': { opacity: '0', transform: 'translateX(-30px)' },
+                            '100%': { opacity: '1', transform: 'translateX(0)' }
+                        },
+                        slideInRight: {
+                            '0%': { opacity: '0', transform: 'translateX(30px)' },
+                            '100%': { opacity: '1', transform: 'translateX(0)' }
+                        },
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-20px)' }
+                        },
+                        glow: {
+                            '0%': { boxShadow: '0 0 20px rgba(59, 130, 246, 0.5)' },
+                            '100%': { boxShadow: '0 0 30px rgba(59, 130, 246, 0.8)' }
+                        },
+                        particle: {
+                            '0%': { transform: 'translateY(100vh) rotate(0deg)', opacity: '0' },
+                            '10%': { opacity: '1' },
+                            '90%': { opacity: '1' },
+                            '100%': { transform: 'translateY(-100vh) rotate(360deg)', opacity: '0' }
+                        },
+                        morph: {
+                            '0%, 100%': { borderRadius: '60% 40% 30% 70% / 60% 30% 70% 40%' },
+                            '50%': { borderRadius: '30% 60% 70% 40% / 50% 60% 30% 60%' }
+                        },
+                        gradient: {
+                            '0%, 100%': { backgroundPosition: '0% 50%' },
+                            '50%': { backgroundPosition: '100% 50%' }
+                        }
+                    },
+                    backdropBlur: {
+                        'xs': '2px'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Samuel KPASSEGNA",
+      "url": "https://skpassegna.me/",
+      "email": "mailto:online@skpassegna.me",
+      "jobTitle": "Senior Web Developer, Technical Partner, CTO",
+      "description": "Experienced technical partner specializing in brainstorming, refining business logic, software architecture, and full-stack development (PHP, Python, Laravel, AI, DevOps) for startups and innovative entrepreneurs.",
+      "image": "https://skpassegna.me/assets/images/473190461_8903352673116614_9147900912655957461_n.jpg",
+      "knowsAbout": [
+        "Software Architecture",
+        "Web Development",
+        "PHP",
+        "Laravel",
+        "Python",
+        "MySQL",
+        "WordPress Development",
+        "DevOps",
+        "Cloud Infrastructure",
+        "AWS",
+        "Google Cloud Platform (GCP)",
+        "Oracle Cloud Infrastructure (OCI)",
+        "Artificial Intelligence (AI)",
+        "Large Language Models (LLM)",
+        "Business Logic Refinement",
+        "Startup Consulting",
+        "Technical Leadership",
+        "API Design",
+        "Payment Integration",
+        "Project Management",
+        "Fintech",
+        "GovTech"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "All4Web Ltd",
+        "description": "Pioneering innovative digital financial solutions, web applications, and government-focused digital tools for underserved African markets.",
+        "url": "https://all4web.dev/"
+      },
+      "sameAs": [
+        "https://skpassegna.link/linkedin",
+        "https://skpassegna.link/github",
+        "https://www.euroquity.com/en/company/all4web-ltd",
+        "https://app.vestbee.com/s/all4web-ltd/c47d36fa20f941b38a9fb1a003f418e7",
+        "https://skpassegna.link/x",
+        "https://skpassegna.link/facebook"
+      ],
+       "alumniOf": [
+         { "@type": "CollegeOrUniversity", "name": "OpenClassrooms" },
+         { "@type": "CollegeOrUniversity", "name": "Université Formatec" }
+       ]
+    }
+    </script>
+
+    <!-- Analytics -->
+    <script type="text/javascript">
+            (function (c, l, a, r, i, t, y) {
+                c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+                t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+                y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+            })(window, document, "clarity", "script", "qusdn667x5");
+    </script>
+</head>
+
+<body class="bg-dark-950 text-slate-100 overflow-x-hidden">
+    <!-- Background Particles -->
+    <div class="fixed inset-0 pointer-events-none z-0" id="particles">
+        <div class="absolute w-1 h-1 bg-primary-400 rounded-full opacity-60 animate-particle"
+            style="left: 10%; animation-delay: 0s;"></div>
+        <div class="absolute w-1 h-1 bg-primary-500 rounded-full opacity-60 animate-particle"
+            style="left: 20%; animation-delay: 5s;"></div>
+        <div class="absolute w-1 h-1 bg-primary-300 rounded-full opacity-60 animate-particle"
+            style="left: 30%; animation-delay: 10s;"></div>
+        <div class="absolute w-1 h-1 bg-primary-600 rounded-full opacity-60 animate-particle"
+            style="left: 40%; animation-delay: 15s;"></div>
+        <div class="absolute w-1 h-1 bg-primary-400 rounded-full opacity-60 animate-particle"
+            style="left: 50%; animation-delay: 20s;"></div>
+        <div class="absolute w-1 h-1 bg-primary-500 rounded-full opacity-60 animate-particle"
+            style="left: 60%; animation-delay: 2s;"></div>
+        <div class="absolute w-1 h-1 bg-primary-300 rounded-full opacity-60 animate-particle"
+            style="left: 70%; animation-delay: 7s;"></div>
+        <div class="absolute w-1 h-1 bg-primary-600 rounded-full opacity-60 animate-particle"
+            style="left: 80%; animation-delay: 12s;"></div>
+        <div class="absolute w-1 h-1 bg-primary-400 rounded-full opacity-60 animate-particle"
+            style="left: 90%; animation-delay: 17s;"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed left-1/2 z-50 transition-all duration-500" id="main-nav"
+        style="top: 2rem; transform: translate(-50%, 0);">
+        <div class="bg-dark-900/80 backdrop-blur-xl border border-dark-700/50 rounded-full px-6 py-3 shadow-2xl">
+            <div class="flex items-center space-x-8">
+                <!-- Logo -->
+                <a href="#hero" class="flex items-center space-x-2 group">
+                    <div
+                        class="w-8 h-8 bg-gradient-to-br from-primary-400 to-primary-600 rounded-lg flex items-center justify-center transform group-hover:rotate-180 transition-transform duration-500">
+                        <span class="text-white font-bold text-sm">
+                            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                            <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+                            <svg width="32" height="32" viewBox="0 0 285.74999 285.75" version="1.1" id="svg1"
+                                xml:space="preserve" inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+                                sodipodi:docname="Logo skpassegna.svg"
+                                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                                xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"
+                                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                                xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                <title id="title4428">Samuel Kpassegna</title>
+                                <sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000"
+                                    borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0"
+                                    inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1"
+                                    inkscape:document-units="px" inkscape:zoom="0.4894542" inkscape:cx="484.21283"
+                                    inkscape:cy="481.14819" inkscape:window-width="1920" inkscape:window-height="991"
+                                    inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1"
+                                    inkscape:current-layer="layer1" />
+                                <defs id="defs1" />
+                                <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
+                                    <path style="fill:#4e49f0;stroke:none;stroke-width:1.83218;stroke-dasharray:none"
+                                        d="m 153.20321,149.72779 -1.93882,2.90824 h 1.45412 c 0.9576,5.71617 11.01721,12.58101 15.05954,16.61837 4.21713,4.21193 -1.15602,10.3501 3.46249,15.32656 6.51578,7.02078 18.17378,-0.16414 15.78171,-9.16378 -2.09555,-7.88407 -8.61396,-4.39348 -13.46141,-7.12172 -7.50306,-4.22288 -11.92967,-16.20208 -20.35763,-18.56767 z"
+                                        id="path3389" />
+                                    <path style="fill:#191919;stroke:none;stroke-width:1.83218;stroke-dasharray:none"
+                                        d="m 127.02912,169.60071 c -2.421,1.129 -6.75067,4.45076 -7.21339,7.27059 -0.54662,3.33127 1.35505,7.06644 0.75437,10.66353 -0.67876,4.0647 -3.15438,7.41886 -6.14371,10.12793 -14.23459,12.90002 -36.564562,-4.04726 -28.757718,-21.27616 2.457737,-5.42396 7.389277,-9.58479 13.247513,-10.75666 6.977765,-1.39582 12.536255,1.59161 16.479985,-6.69275 -26.334895,-14.35042 -58.950062,9.6647 -50.550002,39.26116 1.277333,4.5005 3.367322,8.45412 6.279861,12.11763 15.068855,18.95428 46.335541,15.70238 57.366171,-5.81646 6.1139,-11.92717 3.37604,-23.27566 -1.46308,-34.89881 z"
+                                        id="path3465" />
+                                    <path style="fill:#191919;stroke:none;stroke-width:1.83218;stroke-dasharray:none"
+                                        d="m 168.22907,154.57484 c 1.85444,2.6326 4.8149,6.28437 7.7482,7.72986 1.72647,0.85078 3.97,0.35954 5.82394,0.892 5.14157,1.47665 9.10547,5.24372 10.88231,10.28166 5.04662,14.30903 -13.0632,25.75301 -24.41107,16.52861 -3.56422,-2.89728 -5.53478,-7.10846 -5.63918,-11.68156 -0.0392,-1.71561 0.83542,-3.67729 0.16835,-5.33175 -1.11722,-2.77072 -4.79137,-5.59165 -7.17482,-7.27058 -3.19551,8.23875 -4.53753,17.05808 -0.0467,25.20468 8.64263,15.67843 31.13582,17.64484 42.47567,3.87727 16.46445,-19.98923 -5.71012,-50.60616 -29.82658,-40.23019 z"
+                                        id="path3434" />
+                                    <path style="fill:#4e49f0;stroke:none;stroke-width:1.83218;stroke-dasharray:none"
+                                        d="m 100.85502,98.833705 c 0.05,1.400405 -1.303494,2.028585 -1.777257,3.392935 -0.929206,2.67614 -0.607111,6.72552 1.050207,9.12863 3.8893,5.63952 9.81178,1.67569 14.2988,4.6047 2.33007,1.521 3.91242,4.0908 5.89726,5.97803 4.0762,3.87574 9.09891,7.84243 12.52156,12.27921 h 0.9694 c 4.03666,-5.16325 -7.95447,-13.2634 -11.63479,-16.96432 -1.67457,-1.68395 -4.34787,-3.37665 -5.21097,-5.6665 -0.87637,-2.32503 0.68941,-5.34401 0.10956,-7.90563 -1.924,-8.49965 -10.09598,-8.104386 -16.22379,-4.847055 z"
+                                        id="path2633" />
+                                    <path style="fill:#4e49f0;stroke:none;stroke-width:1.83218;stroke-dasharray:none"
+                                        d="m 177.43849,90.593709 c -10.83819,0.257226 -5.97126,15.655051 -6.30118,21.327051 -3.26985,0 -8.34661,6.8925 -11.14822,9.6941 -9.28198,9.28198 -17.61309,18.94931 -27.62822,27.14352 -2.63822,2.15854 -8.00324,10.238 -10.17882,9.69411 -1.65195,3.39037 -9.04414,11.60597 -12.88846,12.54064 -4.55491,1.10744 -10.760724,-3.61119 -14.255056,2.00053 -9.079039,1.17348 -8.225145,21.45205 0.969417,22.29645 2.262816,3.48477 10.342959,3.48858 12.602349,0 5.57189,-0.13263 8.5135,-8.90762 7.58887,-13.57175 -0.57448,-2.89788 -2.82107,-4.79513 -0.79961,-7.7119 3.49854,-5.04805 9.26491,-9.35317 13.72921,-13.55905 7.62658,-7.18513 14.77162,-14.95256 22.25382,-22.25718 3.85376,-3.76229 9.44195,-12.00249 14.42299,-13.66714 2.04988,-3.09693 6.7166,-9.0703 10.52513,-10.01687 2.08149,-0.51733 4.81587,1.2626 6.92427,1.53267 3.13897,0.40208 7.74173,-1.74738 9.99666,-3.90196 3.31259,-3.16517 6.81778,-12.433942 2.12095,-15.726759 -0.33211,-6.652164 -13.89567,-11.755542 -17.9341,-5.816462 z"
+                                        id="path2486" />
+                                    <path style="fill:#191919;stroke:none;stroke-width:1.83218;stroke-dasharray:none"
+                                        d="m 118.78912,128.88544 c -1.91678,-2.41844 -4.86319,-6.27424 -7.79866,-7.40259 -2.08686,-0.80216 -4.56226,-0.1821 -6.74253,-0.68256 -4.809399,-1.10399 -9.168599,-5.28721 -10.921178,-9.84895 -5.09616,-13.264532 11.371828,-26.569966 23.038848,-18.179817 4.141,2.977934 6.39783,6.841754 7.06114,11.878647 0.22519,1.70993 -0.48369,3.74108 0.24198,5.33175 1.26541,2.77373 4.79429,5.54917 7.23805,7.27059 2.78132,-8.22152 3.87899,-16.81232 -0.70988,-24.719966 C 121.33726,77.265407 98.65863,75.066691 87.53421,89.139959 70.778836,110.33688 94.478412,139.6483 118.78912,128.88544 Z"
+                                        id="path2363" />
+                                    <path style="fill:#191919;stroke:none;stroke-width:1.83218;stroke-dasharray:none"
+                                        d="m 158.53499,116.28311 c 2.36931,-1.66899 6.61387,-4.83216 7.37865,-7.7553 0.6136,-2.34509 -0.69629,-5.71053 -0.57334,-8.23999 0.29765,-6.122512 4.30867,-11.678524 9.67466,-14.408765 16.68359,-8.488708 34.89651,11.528837 23.38181,27.011105 -3.00983,4.04694 -7.70855,6.88986 -12.71829,7.60982 -2.79673,0.40192 -5.56428,-0.99046 -8.23999,-0.5872 -2.90195,0.43738 -6.11341,4.5524 -7.27058,7.03384 11.17663,3.80575 21.049,6.54 32.47527,1.30452 21.73801,-9.96033 26.26942,-39.629057 9.20753,-56.056794 -17.05185,-16.418138 -46.36639,-9.90822 -55.57584,11.613497 -4.83613,11.301619 -1.67177,21.637897 2.26012,32.475267 z"
+                                        id="path2250" />
+                                </g>
+                                <metadata id="metadata4428">
+                                    <rdf:RDF>
+                                        <cc:Work rdf:about="">
+                                            <dc:title>Samuel Kpassegna</dc:title>
+                                        </cc:Work>
+                                    </rdf:RDF>
+                                </metadata>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Navigation Links -->
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="#work" class="nav-link group relative px-3 py-2 rounded-lg transition-all duration-300">
+                        <span
+                            class="relative z-10 text-slate-300 group-hover:text-white transition-colors duration-300">Work</span>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-primary-600/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </a>
+                    <a href="#expertise"
+                        class="nav-link group relative px-3 py-2 rounded-lg transition-all duration-300">
+                        <span
+                            class="relative z-10 text-slate-300 group-hover:text-white transition-colors duration-300">Approach</span>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-primary-600/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </a>
+                    <a href="#vision" class="nav-link group relative px-3 py-2 rounded-lg transition-all duration-300">
+                        <span
+                            class="relative z-10 text-slate-300 group-hover:text-white transition-colors duration-300">Vision</span>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-primary-600/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </a>
+                    <a href="#contact"
+                        class="bg-gradient-to-r from-primary-500 to-primary-600 text-white px-4 py-2 rounded-lg hover:from-primary-400 hover:to-primary-500 transition-all duration-300 hover:shadow-lg hover:shadow-primary-500/25 hover:-translate-y-0.5">
+                        Contact
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden w-8 h-8 flex flex-col justify-center items-center space-y-1.5 group"
+                    id="mobile-menu-btn">
+                    <div class="w-5 h-0.5 bg-slate-300 transition-all duration-300 group-hover:bg-primary-400"></div>
+                    <div class="w-5 h-0.5 bg-slate-300 transition-all duration-300 group-hover:bg-primary-400"></div>
+                    <div class="w-5 h-0.5 bg-slate-300 transition-all duration-300 group-hover:bg-primary-400"></div>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden absolute top-full left-0 right-0 mt-2 bg-dark-900/95 backdrop-blur-xl border border-dark-700/50 rounded-2xl p-6 opacity-0 invisible transition-all duration-300"
+            id="mobile-menu">
+            <div class="flex flex-col space-y-4">
+                <a href="#work"
+                    class="text-slate-300 hover:text-primary-400 transition-colors duration-300 py-2">Work</a>
+                <a href="#expertise"
+                    class="text-slate-300 hover:text-primary-400 transition-colors duration-300 py-2">Approach</a>
+                <a href="#vision"
+                    class="text-slate-300 hover:text-primary-400 transition-colors duration-300 py-2">Vision</a>
+                <a href="#contact"
+                    class="bg-gradient-to-r from-primary-500 to-primary-600 text-white px-4 py-3 rounded-lg text-center hover:from-primary-400 hover:to-primary-500 transition-all duration-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="relative z-10">
+        <!-- Hero Section -->
+        <section id="hero" class="min-h-screen flex items-center justify-center relative overflow-hidden">
+            <!-- Gradient Background -->
+            <div class="absolute inset-0 bg-gradient-to-br from-dark-950 via-dark-900 to-primary-950/20"></div>
+
+            <!-- Animated Background Shapes -->
+            <div
+                class="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-primary-500/10 to-primary-600/10 rounded-full filter blur-3xl animate-float">
+            </div>
+            <div class="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-r from-primary-400/5 to-primary-500/5 rounded-full filter blur-3xl animate-float"
+                style="animation-delay: 3s;"></div>
+
+            <div class="container mx-auto px-6 relative z-10">
+                <div class="max-w-5xl mx-auto text-center">
+                    <!-- Main Headline -->
+                    <div class="animate-slide-up">
+                        <h1 class="text-5xl md:text-7xl lg:text-8xl font-display font-bold mb-8 leading-tight">
+                            <span
+                                class="text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-200 to-primary-300">
+                                Entrepreneurial
+                            </span>
+                            <br>
+                            <span
+                                class="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 via-primary-500 to-primary-600 animate-gradient bg-300% bg-gradient-to-r">
+                                Technologist
+                            </span>
+                        </h1>
+                    </div>
+
+                    <!-- Subtitle -->
+                    <div class="animate-slide-up" style="animation-delay: 0.2s;">
+                        <p class="text-xl md:text-2xl text-slate-300 mb-12 max-w-4xl mx-auto leading-relaxed">
+                            I partner with <span class="text-primary-400 font-semibold">visionary founders</span> to
+                            transform ambitious ideas into
+                            <span class="text-primary-400 font-semibold">market-ready realities</span>, specializing in
+                            brainstorming,
+                            refining business logic, and architecting robust, scalable solutions.
+                        </p>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-6 justify-center animate-slide-up"
+                        style="animation-delay: 0.4s;">
+                        <a href="#contact"
+                            class="group bg-gradient-to-r from-primary-500 to-primary-600 text-white px-8 py-4 rounded-2xl hover:from-primary-400 hover:to-primary-500 transition-all duration-300 hover:shadow-2xl hover:shadow-primary-500/25 hover:-translate-y-1 flex items-center justify-center space-x-2 font-semibold text-lg">
+                            <span>Let's Brainstorm Your Idea</span>
+                            <i data-lucide="arrow-right"
+                                class="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300"></i>
+                        </a>
+                        <a href="#work"
+                            class="group border-2 border-primary-500/30 text-primary-400 hover:text-white px-8 py-4 rounded-2xl hover:bg-primary-500/10 transition-all duration-300 hover:border-primary-400 flex items-center justify-center space-x-2 font-semibold text-lg backdrop-blur-sm">
+                            <span>View My Work</span>
+                            <i data-lucide="eye"
+                                class="w-5 h-5 group-hover:scale-110 transition-transform duration-300"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="pointer-events-none absolute left-1/2 bottom-8 transform -translate-x-1/2 animate-bounce z-20">
+                <div class="w-6 h-10 border-2 border-primary-400/50 rounded-full flex justify-center">
+                    <div class="w-1 h-2 bg-primary-400 rounded-full mt-2 animate-pulse"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work" class="py-32 relative">
+            <div class="container mx-auto px-6">
+                <!-- Section Header -->
+                <div class="text-center mb-20 animate-slide-up">
+                    <h2 class="text-4xl md:text-6xl font-display font-bold mb-8">
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-200 to-primary-400">
+                            Collaborative Journeys
+                        </span>
+                    </h2>
+                    <p class="text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
+                        Transforming ambitious ideas into scalable digital products through strategic partnerships and
+                        technical excellence.
+                    </p>
+                </div>
+
+                <!-- Bento Grid Layout -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                    <!-- All4Web - Featured Card -->
+                    <div
+                        class="lg:col-span-2 lg:row-span-2 group relative overflow-hidden rounded-3xl bg-gradient-to-br from-dark-800/50 to-dark-900/50 border border-dark-700/50 backdrop-blur-sm hover:border-primary-500/30 transition-all duration-500 animate-slide-up">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-primary-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        </div>
+                        <div class="relative p-8 h-full flex flex-col">
+                            <div class="flex items-center space-x-3 mb-6">
+                                <div
+                                    class="w-12 h-12 bg-gradient-to-br from-primary-400 to-primary-600 rounded-xl flex items-center justify-center">
+                                    <i data-lucide="building-2" class="w-6 h-6 text-white"></i>
+                                </div>
+                                <div>
+                                    <span
+                                        class="text-primary-400 text-sm font-semibold uppercase tracking-wider">Featured
+                                        Role</span>
+                                    <h3 class="text-2xl font-display font-bold text-white">CTO & Technical Strategist
+                                    </h3>
+                                </div>
+                            </div>
+
+                            <div class="mb-6">
+                                <h4 class="text-lg font-semibold text-primary-300 mb-3">All4Web Ltd</h4>
+                                <p class="text-slate-300 leading-relaxed mb-6">
+                                    As CTO, I guide the technology strategy and execution for All4Web, a mission-driven
+                                    company I co-founded.
+                                    We're pioneering digital solutions (Fintech, Web Apps, Gov-Tech) for underserved
+                                    African markets.
+                                    My responsibilities include leading the overall technical architecture, driving R&D
+                                    initiatives,
+                                    and managing diverse freelance development teams.
+                                </p>
+
+                                <div class="grid grid-cols-2 gap-4 mb-6">
+                                    <div class="bg-dark-900/50 rounded-xl p-4">
+                                        <div class="text-primary-400 font-bold text-2xl">Feb 2023</div>
+                                        <div class="text-slate-400 text-sm">Since</div>
+                                    </div>
+                                    <div class="bg-dark-900/50 rounded-xl p-4">
+                                        <div class="text-primary-400 font-bold text-2xl">3</div>
+                                        <div class="text-slate-400 text-sm">Focus Areas</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-auto">
+                                <div class="flex flex-wrap gap-3 mb-6">
+                                    <span
+                                        class="px-3 py-1 bg-primary-500/20 text-primary-300 rounded-full text-sm">Fintech</span>
+                                    <span
+                                        class="px-3 py-1 bg-primary-500/20 text-primary-300 rounded-full text-sm">GovTech</span>
+                                    <span
+                                        class="px-3 py-1 bg-primary-500/20 text-primary-300 rounded-full text-sm">Leadership</span>
+                                </div>
+
+                                <div class="flex space-x-4">
+                                    <a href="https://www.euroquity.com/en/company/all4web-ltd" target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="group/link flex items-center space-x-2 text-primary-400 hover:text-primary-300 transition-colors duration-300">
+                                        <span>EuroQuity</span>
+                                        <i data-lucide="external-link"
+                                            class="w-4 h-4 group-hover/link:translate-x-1 transition-transform duration-300"></i>
+                                    </a>
+                                    <a href="https://app.vestbee.com/s/all4web-ltd/c47d36fa20f941b38a9fb1a003f418e7"
+                                        target="_blank" rel="noopener noreferrer"
+                                        class="group/link flex items-center space-x-2 text-primary-400 hover:text-primary-300 transition-colors duration-300">
+                                        <span>Vestbee</span>
+                                        <i data-lucide="external-link"
+                                            class="w-4 h-4 group-hover/link:translate-x-1 transition-transform duration-300"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fintech Architecture Card -->
+                    <div class="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-dark-800/50 to-dark-900/50 border border-dark-700/50 backdrop-blur-sm hover:border-primary-500/30 transition-all duration-500 animate-slide-up"
+                        style="animation-delay: 0.1s;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-primary-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        </div>
+                        <div class="relative p-6 h-full flex flex-col">
+                            <div class="flex items-center space-x-3 mb-4">
+                                <div
+                                    class="w-10 h-10 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-lg flex items-center justify-center">
+                                    <i data-lucide="trending-up" class="w-5 h-5 text-white"></i>
+                                </div>
+                                <h3 class="text-lg font-display font-bold text-white">Strategic Architecture</h3>
+                            </div>
+
+                            <p class="text-slate-300 text-sm leading-relaxed mb-4 flex-grow">
+                                Collaborated with early-stage Fintech founders from concept to core platform
+                                architecture,
+                                navigating complexities and ensuring solid foundations for growth.
+                            </p>
+
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="px-2 py-1 bg-emerald-500/20 text-emerald-300 rounded-full text-xs">Early-Stage</span>
+                                <span class="px-2 py-1 bg-emerald-500/20 text-emerald-300 rounded-full text-xs">Acting
+                                    CTO</span>
+                            </div>
+
+                            <a href="#vision"
+                                class="text-primary-400 hover:text-primary-300 transition-colors duration-300 text-sm font-medium">
+                                My Strategic Approach →
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- DevOps Card -->
+                    <div class="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-dark-800/50 to-dark-900/50 border border-dark-700/50 backdrop-blur-sm hover:border-primary-500/30 transition-all duration-500 animate-slide-up"
+                        style="animation-delay: 0.2s;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-primary-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        </div>
+                        <div class="relative p-6 h-full flex flex-col">
+                            <div class="flex items-center space-x-3 mb-4">
+                                <div
+                                    class="w-10 h-10 bg-gradient-to-br from-purple-400 to-purple-600 rounded-lg flex items-center justify-center">
+                                    <i data-lucide="server" class="w-5 h-5 text-white"></i>
+                                </div>
+                                <h3 class="text-lg font-display font-bold text-white">Reliable Infrastructure</h3>
+                            </div>
+
+                            <p class="text-slate-300 text-sm leading-relaxed mb-4 flex-grow">
+                                Designed and managed scalable hosting solutions for 23 client websites using Linux VPS
+                                and Cloud infrastructure
+                                with high availability and optimal performance.
+                            </p>
+
+                            <div class="bg-dark-900/50 rounded-lg p-3 mb-4">
+                                <div class="text-purple-400 font-bold text-xl">23</div>
+                                <div class="text-slate-400 text-xs">Websites Managed</div>
+                            </div>
+
+                            <a href="#expertise"
+                                class="text-primary-400 hover:text-primary-300 transition-colors duration-300 text-sm font-medium">
+                                DevOps Expertise →
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- AI Integration Card -->
+                    <div class="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-dark-800/50 to-dark-900/50 border border-dark-700/50 backdrop-blur-sm hover:border-primary-500/30 transition-all duration-500 animate-slide-up"
+                        style="animation-delay: 0.3s;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-primary-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        </div>
+                        <div class="relative p-6 h-full flex flex-col">
+                            <div class="flex items-center space-x-3 mb-4">
+                                <div
+                                    class="w-10 h-10 bg-gradient-to-br from-orange-400 to-orange-600 rounded-lg flex items-center justify-center">
+                                    <i data-lucide="brain" class="w-5 h-5 text-white"></i>
+                                </div>
+                                <h3 class="text-lg font-display font-bold text-white">AI Integration</h3>
+                            </div>
+
+                            <p class="text-slate-300 text-sm leading-relaxed mb-4 flex-grow">
+                                Exploring and implementing open-source AI/LLMs (Llama, DeepSeek, Granite) to enhance
+                                business logic,
+                                automate processes, and unlock innovative features.
+                            </p>
+
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 bg-orange-500/20 text-orange-300 rounded-full text-xs">Open
+                                    Source</span>
+                                <span
+                                    class="px-2 py-1 bg-orange-500/20 text-orange-300 rounded-full text-xs">LLMs</span>
+                            </div>
+
+                            <a href="#vision"
+                                class="text-primary-400 hover:text-primary-300 transition-colors duration-300 text-sm font-medium">
+                                Vision on AI →
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Payment Systems Card -->
+                    <div class="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-dark-800/50 to-dark-900/50 border border-dark-700/50 backdrop-blur-sm hover:border-primary-500/30 transition-all duration-500 animate-slide-up"
+                        style="animation-delay: 0.4s;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-primary-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        </div>
+                        <div class="relative p-6 h-full flex flex-col">
+                            <div class="flex items-center space-x-3 mb-4">
+                                <div
+                                    class="w-10 h-10 bg-gradient-to-br from-green-400 to-green-600 rounded-lg flex items-center justify-center">
+                                    <i data-lucide="credit-card" class="w-5 h-5 text-white"></i>
+                                </div>
+                                <h3 class="text-lg font-display font-bold text-white">Payment Systems</h3>
+                            </div>
+
+                            <p class="text-slate-300 text-sm leading-relaxed mb-4 flex-grow">
+                                Developed foundational backend systems for mobile advertising platform, integrating
+                                payment gateways
+                                (Stripe, PayPal) and communication APIs.
+                            </p>
+
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="px-2 py-1 bg-green-500/20 text-green-300 rounded-full text-xs">Stripe</span>
+                                <span
+                                    class="px-2 py-1 bg-green-500/20 text-green-300 rounded-full text-xs">PayPal</span>
+                            </div>
+
+                            <a href="#expertise"
+                                class="text-primary-400 hover:text-primary-300 transition-colors duration-300 text-sm font-medium">
+                                API Integration Skills →
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Prototype Development Card -->
+                    <div class="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-dark-800/50 to-dark-900/50 border border-dark-700/50 backdrop-blur-sm hover:border-primary-500/30 transition-all duration-500 animate-slide-up"
+                        style="animation-delay: 0.5s;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-primary-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        </div>
+                        <div class="relative p-6 h-full flex flex-col">
+                            <div class="flex items-center space-x-3 mb-4">
+                                <div
+                                    class="w-10 h-10 bg-gradient-to-br from-pink-400 to-pink-600 rounded-lg flex items-center justify-center">
+                                    <i data-lucide="lightbulb" class="w-5 h-5 text-white"></i>
+                                </div>
+                                <h3 class="text-lg font-display font-bold text-white">From Idea to Prototype</h3>
+                            </div>
+
+                            <p class="text-slate-300 text-sm leading-relaxed mb-4 flex-grow">
+                                Partner with founders in early stages, refining "napkin ideas" into working prototypes,
+                                defining MVP scope, and validating assumptions.
+                            </p>
+
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 bg-pink-500/20 text-pink-300 rounded-full text-xs">MVP</span>
+                                <span
+                                    class="px-2 py-1 bg-pink-500/20 text-pink-300 rounded-full text-xs">Validation</span>
+                            </div>
+
+                            <a href="#contact"
+                                class="text-primary-400 hover:text-primary-300 transition-colors duration-300 text-sm font-medium">
+                                Discuss Your Early Idea →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Approach Section -->
+        <section id="expertise" class="py-32 relative">
+            <div class="container mx-auto px-6">
+                <!-- Section Header -->
+                <div class="text-center mb-20 animate-slide-up">
+                    <h2 class="text-4xl md:text-6xl font-display font-bold mb-8">
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-200 to-primary-400">
+                            My Approach
+                        </span>
+                    </h2>
+                    <p class="text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
+                        Combining deep technical knowledge with strategic business understanding to ensure
+                        your technology serves your vision effectively.
+                    </p>
+                </div>
+
+                <!-- Capabilities Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                    <!-- Strategic Brainstorming -->
+                    <div
+                        class="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-dark-800/50 to-dark-900/50 border border-dark-700/50 backdrop-blur-sm hover:border-primary-500/30 transition-all duration-500 animate-slide-up">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-primary-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        </div>
+                        <div class="relative p-8">
+                            <div
+                                class="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                <i data-lucide="users" class="w-8 h-8 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-display font-bold text-white mb-4">Strategic Brainstorming & Idea
+                                Refinement</h3>
+                            <p class="text-slate-300 leading-relaxed">
+                                Engaging from the earliest stages to rigorously validate concepts, explore technical
+                                possibilities,
+                                define monetization strategies, and refine business logic for market fit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Software Architecture -->
+                    <div class="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-dark-800/50 to-dark-900/50 border border-dark-700/50 backdrop-blur-sm hover:border-primary-500/30 transition-all duration-500 animate-slide-up"
+                        style="animation-delay: 0.1s;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-primary-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        </div>
+                        <div class="relative p-8">
+                            <div
+                                class="w-16 h-16 bg-gradient-to-br from-purple-400 to-purple-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                <i data-lucide="layers" class="w-8 h-8 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-display font-bold text-white mb-4">Scalable Software Architecture
+                            </h3>
+                            <p class="text-slate-300 leading-relaxed">
+                                Designing robust, future-proof architectures leveraging PHP (Laravel, WordPress),
+                                Python,
+                                and appropriate database solutions that grow with your venture.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- End-to-End Implementation -->
+                    <div class="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-dark-800/50 to-dark-900/50 border border-dark-700/50 backdrop-blur-sm hover:border-primary-500/30 transition-all duration-500 animate-slide-up"
+                        style="animation-delay: 0.2s;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-primary-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        </div>
+                        <div class="relative p-8">
+                            <div
+                                class="w-16 h-16 bg-gradient-to-br from-green-400 to-green-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                <i data-lucide="code" class="w-8 h-8 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-display font-bold text-white mb-4">End-to-End Implementation</h3>
+                            <p class="text-slate-300 leading-relaxed">
+                                Delivering high-quality, maintainable code across the full stack, ensuring efficient
+                                data management,
+                                seamless integrations, and adherence to best practices.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- DevOps & Cloud -->
+                    <div class="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-dark-800/50 to-dark-900/50 border border-dark-700/50 backdrop-blur-sm hover:border-primary-500/30 transition-all duration-500 animate-slide-up"
+                        style="animation-delay: 0.3s;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-primary-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        </div>
+                        <div class="relative p-8">
+                            <div
+                                class="w-16 h-16 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                <i data-lucide="cloud" class="w-8 h-8 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-display font-bold text-white mb-4">Reliable DevOps & Cloud
+                                Infrastructure</h3>
+                            <p class="text-slate-300 leading-relaxed">
+                                Expertly managing Linux/Cloud environments (AWS/OCI) for secure deployment, high
+                                availability,
+                                automated workflows (CI/CD), and effective scaling.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Technical Partnership -->
+                    <div class="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-dark-800/50 to-dark-900/50 border border-dark-700/50 backdrop-blur-sm hover:border-primary-500/30 transition-all duration-500 animate-slide-up"
+                        style="animation-delay: 0.4s;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-primary-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        </div>
+                        <div class="relative p-8">
+                            <div
+                                class="w-16 h-16 bg-gradient-to-br from-pink-400 to-pink-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                <i data-lucide="handshake" class="w-8 h-8 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-display font-bold text-white mb-4">Technical Partnership &
+                                Fractional CTO</h3>
+                            <p class="text-slate-300 leading-relaxed">
+                                Serving as your dedicated technical sounding board, offering strategic guidance,
+                                managing technical resources,
+                                and ensuring technology aligns perfectly with business trajectory.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- AI & Emerging Tech -->
+                    <div class="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-dark-800/50 to-dark-900/50 border border-dark-700/50 backdrop-blur-sm hover:border-primary-500/30 transition-all duration-500 animate-slide-up"
+                        style="animation-delay: 0.5s;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-primary-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        </div>
+                        <div class="relative p-8">
+                            <div
+                                class="w-16 h-16 bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                <i data-lucide="brain" class="w-8 h-8 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-display font-bold text-white mb-4">AI & Emerging Tech Integration
+                            </h3>
+                            <p class="text-slate-300 leading-relaxed">
+                                Leveraging hands-on experience with AI/LLMs (Google Cloud Certified) and a passion for
+                                innovation
+                                to explore how new technologies can create unique value propositions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vision Section -->
+        <section id="vision" class="py-32 relative">
+            <div class="container mx-auto px-6">
+                <div class="max-w-5xl mx-auto">
+                    <!-- Section Header -->
+                    <div class="text-center mb-20 animate-slide-up">
+                        <h2 class="text-4xl md:text-6xl font-display font-bold mb-8">
+                            <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-200 to-primary-400">
+                                Partnering with Innovators
+                            </span>
+                        </h2>
+                    </div>
+
+                    <div class="grid lg:grid-cols-2 gap-16 items-center">
+                        <!-- Content -->
+                        <div class="animate-slide-in-left">
+                            <div class="space-y-6 text-lg text-slate-300 leading-relaxed">
+                                <p>
+                                    My passion is collaborating with entrepreneurs to transform initial concepts into
+                                    viable, scalable digital products.
+                                    With over <span class="text-primary-400 font-semibold">10 years bridging hands-on
+                                        development</span> (PHP, Python, Laravel, WP)
+                                    and strategic leadership as a CTO (currently at All4Web Ltd), my unique strength
+                                    lies in the crucial early stages.
+                                </p>
+
+                                <p class="text-xl font-semibold text-primary-300">
+                                    I thrive in brainstorming sessions, meticulously refining business logic, and
+                                    architecting solutions
+                                    where technology intrinsically drives the mission and creates value.
+                                </p>
+
+                                <p>
+                                    Whether you have a spark of an idea needing validation or a detailed plan ready for
+                                    execution,
+                                    I bring a comprehensive, battle-tested perspective. I'm particularly drawn to
+                                    innovative ventures
+                                    and mission-driven projects, like my current work focusing on impactful digital
+                                    solutions for
+                                    underserved African markets.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Highlights -->
+                        <div class="animate-slide-in-right">
+                            <div
+                                class="bg-gradient-to-br from-dark-800/50 to-dark-900/50 rounded-3xl p-8 border border-dark-700/50 backdrop-blur-sm">
+                                <h4 class="text-2xl font-display font-bold text-primary-400 mb-8">Highlights</h4>
+
+                                <div class="space-y-6">
+                                    <div class="flex items-start space-x-4">
+                                        <div
+                                            class="w-8 h-8 bg-gradient-to-br from-primary-400 to-primary-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                            <i data-lucide="users" class="w-4 h-4 text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-white mb-1">Strategic Partner</h5>
+                                            <p class="text-slate-400 text-sm">Expert in Brainstorming, Idea Refinement,
+                                                Business Logic Validation</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start space-x-4">
+                                        <div
+                                            class="w-8 h-8 bg-gradient-to-br from-green-400 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                            <i data-lucide="crown" class="w-4 h-4 text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-white mb-1">Leadership</h5>
+                                            <p class="text-slate-400 text-sm">CTO at All4Web Ltd (Pioneering tech for
+                                                African markets since Feb 2023)</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start space-x-4">
+                                        <div
+                                            class="w-8 h-8 bg-gradient-to-br from-purple-400 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                            <i data-lucide="layers" class="w-4 h-4 text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-white mb-1">Architecture</h5>
+                                            <p class="text-slate-400 text-sm">Designing Scalable Solutions (PHP,
+                                                Laravel, Python, MySQL, Cloud)</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start space-x-4">
+                                        <div
+                                            class="w-8 h-8 bg-gradient-to-br from-orange-400 to-orange-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                            <i data-lucide="server" class="w-4 h-4 text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-white mb-1">DevOps</h5>
+                                            <p class="text-slate-400 text-sm">Proven High-Availability Hosting &
+                                                Deployment Management (23+ sites)</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start space-x-4">
+                                        <div
+                                            class="w-8 h-8 bg-gradient-to-br from-pink-400 to-pink-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                            <i data-lucide="network" class="w-4 h-4 text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-white mb-1">Network</h5>
+                                            <p class="text-slate-400 text-sm">Trusted within my network for technical
+                                                insights and talent referrals</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start space-x-4">
+                                        <div
+                                            class="w-8 h-8 bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                            <i data-lucide="brain" class="w-4 h-4 text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-semibold text-white mb-1">AI Focus</h5>
+                                            <p class="text-slate-400 text-sm">Google Cloud Generative AI Certified;
+                                                Practical LLM experience</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-32 relative">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto">
+                    <!-- Section Header -->
+                    <div class="text-center mb-20 animate-slide-up">
+                        <h2 class="text-4xl md:text-6xl font-display font-bold mb-8">
+                            <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-200 to-primary-400">
+                                Have an Idea Brewing?
+                            </span>
+                        </h2>
+                        <p class="text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
+                            Whether it's a spark of a concept or a detailed blueprint, I'm ready to discuss how we can
+                            build something impactful.
+                            Reach out for a brainstorming session or technical consultation.
+                        </p>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="bg-gradient-to-br from-dark-800/50 to-dark-900/50 rounded-3xl p-8 lg:p-12 border border-dark-700/50 backdrop-blur-sm animate-slide-up"
+                        style="animation-delay: 0.2s;">
+                        <form id="contact-form" method="POST" action="https://formspree.io/f/xeoazwar"
+                            class="space-y-8">
+                            <div class="grid md:grid-cols-2 gap-8">
+                                <div class="space-y-2">
+                                    <label for="name"
+                                        class="block text-sm font-semibold text-slate-300 uppercase tracking-wider">Name</label>
+                                    <input type="text" id="name" name="name" required autocomplete="name"
+                                        class="w-full px-4 py-4 bg-dark-900/50 border border-dark-700 rounded-xl text-white placeholder-slate-400 focus:border-primary-500 focus:ring-2 focus:ring-primary-500/20 transition-all duration-300">
+                                </div>
+                                <div class="space-y-2">
+                                    <label for="email"
+                                        class="block text-sm font-semibold text-slate-300 uppercase tracking-wider">Email</label>
+                                    <input type="email" id="email" name="email" required autocomplete="email"
+                                        class="w-full px-4 py-4 bg-dark-900/50 border border-dark-700 rounded-xl text-white placeholder-slate-400 focus:border-primary-500 focus:ring-2 focus:ring-primary-500/20 transition-all duration-300">
+                                </div>
+                            </div>
+
+                            <div class="space-y-2">
+                                <label for="message"
+                                    class="block text-sm font-semibold text-slate-300 uppercase tracking-wider">Tell me
+                                    about your project or idea</label>
+                                <textarea id="message" name="message" rows="6" required
+                                    class="w-full px-4 py-4 bg-dark-900/50 border border-dark-700 rounded-xl text-white placeholder-slate-400 focus:border-primary-500 focus:ring-2 focus:ring-primary-500/20 transition-all duration-300 resize-vertical"></textarea>
+                            </div>
+
+                            <button type="submit"
+                                class="w-full bg-gradient-to-r from-primary-500 to-primary-600 text-white px-8 py-4 rounded-xl hover:from-primary-400 hover:to-primary-500 transition-all duration-300 hover:shadow-2xl hover:shadow-primary-500/25 hover:-translate-y-1 font-semibold text-lg flex items-center justify-center space-x-2 group">
+                                <span>Start the Conversation</span>
+                                <i data-lucide="send"
+                                    class="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300"></i>
+                            </button>
+                        </form>
+
+                        <div class="mt-8 text-center">
+                            <p class="text-slate-400">
+                                Or connect directly via
+                                <a href="mailto:online@skpassegna.me"
+                                    class="text-primary-400 hover:text-primary-300 transition-colors duration-300 font-semibold">
+                                    online@skpassegna.me
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-16 border-t border-dark-700/50 relative">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <!-- Social Links -->
+                <div class="flex space-x-8 mb-8 md:mb-0">
+                    <a href="https://skpassegna.link/linkedin" target="_blank" rel="noopener noreferrer"
+                        class="text-slate-400 hover:text-primary-400 transition-colors duration-300 flex items-center space-x-2 group">
+                        <i data-lucide="linkedin"
+                            class="w-5 h-5 group-hover:scale-110 transition-transform duration-300"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://skpassegna.link/github" target="_blank" rel="noopener noreferrer"
+                        class="text-slate-400 hover:text-primary-400 transition-colors duration-300 flex items-center space-x-2 group">
+                        <i data-lucide="github"
+                            class="w-5 h-5 group-hover:scale-110 transition-transform duration-300"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://skpassegna.link/x" target="_blank" rel="noopener noreferrer"
+                        class="text-slate-400 hover:text-primary-400 transition-colors duration-300 flex items-center space-x-2 group">
+                        <i data-lucide="twitter"
+                            class="w-5 h-5 group-hover:scale-110 transition-transform duration-300"></i>
+                        <span>X</span>
+                    </a>
+                    <a href="https://skpassegna.link/facebook" target="_blank" rel="noopener noreferrer"
+                        class="text-slate-400 hover:text-primary-400 transition-colors duration-300 flex items-center space-x-2 group">
+                        <i data-lucide="facebook"
+                            class="w-5 h-5 group-hover:scale-110 transition-transform duration-300"></i>
+                        <span>Facebook</span>
+                    </a>
+                </div>
+
+                <!-- Copyright -->
+                <p class="text-slate-500 text-sm">
+                    © 2025 Samuel KPASSEGNA. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('opacity-0');
+            mobileMenu.classList.toggle('invisible');
+        });
+
+        // Smooth Scrolling for Navigation Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    mobileMenu.classList.add('opacity-0', 'invisible');
+                }
+            });
+        });
+
+        // Scroll Effects
+        let lastScrollY = window.scrollY;
+        const nav = document.getElementById('main-nav');
+        const navTop = 64; // 4rem in px
+
+        window.addEventListener('scroll', () => {
+            const currentScrollY = window.scrollY;
+            // Hide/Show Navigation
+            if (currentScrollY > lastScrollY && currentScrollY > 100) {
+                nav.style.transform = `translate(-50%, calc(-100% + ${navTop}px))`;
+            } else {
+                nav.style.transform = 'translate(-50%, 0)';
+            }
+            lastScrollY = currentScrollY;
+        });
+
+        // Intersection Observer for Animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all animated elements
+        document.querySelectorAll('.animate-slide-up, .animate-slide-in-left, .animate-slide-in-right').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            observer.observe(el);
+        });
+
+        // Form Submission Handler
+        const contactForm = document.getElementById('contact-form');
+        contactForm.addEventListener('submit', function (e) {
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
+
+            submitBtn.innerHTML = '<i data-lucide="loader-2" class="w-5 h-5 animate-spin"></i><span>Sending...</span>';
+            submitBtn.disabled = true;
+
+            // Re-enable after form submission (Formspree will handle the actual submission)
+            setTimeout(() => {
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+                lucide.createIcons();
+            }, 2000);
+        });
+    </script>
+</body>
+
+</html>
